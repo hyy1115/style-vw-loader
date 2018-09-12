@@ -62,3 +62,7 @@ defaultsProp = {
   minPixelValue: 1
 }
 ```
+
+### 参与
+
+只支持vue模板的转换，react模板未提供支持。如果你也有转换style的需求、欢迎参与完善该项目。
