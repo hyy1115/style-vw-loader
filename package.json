@@ -1,0 +1,22 @@
+{
+  "name": "style-vw-loader",
+  "version": "1.0.0",
+  "description": "一个可以将vue标签内样式px转换vw的 webpack loader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyy1115/style-vw-loader.git"
+  },
+  "author": "hyy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hyy1115/style-vw-loader/issues"
+  },
+  "homepage": "https://github.com/hyy1115/style-vw-loader#readme",
+  "dependencies": {
+    "loader-utils": "^1.1.0"
+  }
+}
