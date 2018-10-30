@@ -8,11 +8,11 @@ let defaultsProp = {
   fontViewportUnit: 'vw',
   minPixelValue: 1
 }
-const opts = loaderUtils.getOptions(this)
-const defaults = Object.assign({}, defaultsProp, opts)
 const template = /<template>([\s\S]+)<\/template>/gi
 const ZPXRegExp = /(\d+)px/
 module.exports = function (source) {
+  const opts = loaderUtils.getOptions(this)
+  const defaults = Object.assign({}, defaultsProp, opts)
   let _source = ''
   if (template.test(source)) {
     _source = source.match(template)[0]
